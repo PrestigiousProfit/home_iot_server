@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Terminal</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/server.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/log.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/weather.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/animations.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class = "container">
+        <div id="time"></div>
+
+        <div id="logbox">
+            <div id="log_bar"><p id="log_title" class="window_text"><b>Device Logs</b></p></div>
+            <div id="log_body"></div>
+        </div>
+
+        <div id="weatherbox">
+            <div id="weather_bar"><p id="weather_title" class="window_text"><b>Weather</b></p></div>
+            <div id="weather_body"></div>
+        </div>
+
+    </div>
+
+    <div class = "terminal-half">
+        <div id="termbox">
+            <div id="top_bar"><p id="term_title" class ="window_text"><b>Terminal</b></p></div>
+            <div id="cmd_area">
+                <p class="term_p" id="s_prompt"><b>Server# </b></p>
+                <input id="cmd_line" type="text">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/term.js"></script>
+    <script type="text/javascript" src="js/cmd_handler.js"></script>
+
+
+</body>

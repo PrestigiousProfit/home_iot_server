@@ -1,0 +1,59 @@
+#mainTemp{
+    font-family: "Oswald", sans-serif;
+    font-size: 65px;
+    color: #FFFFFF;
+    opacity: 0.95;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#highLow{
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+    opacity: 0.95;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+}
+
+#tempCondition{
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    color: #FFFFFF;
+    opacity: 0.95;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+#weatherbox{
+    margin-top: 10px;
+    margin-right: 30px;
+    float: right;
+    width: 15%;
+    height: 90%;
+    background: none;
+    border-style: none;
+    border-width: 2px;
+    border-color: rgba(45, 45, 88, 0.5);
+}
+
+
+#weather_bar{
+    font-family: monospace;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 6px;
+    padding-top: 3px;
+    height: 24px;
+}
+
+
+#weather_body{
+    width: 100%;
+    height: 90%;
+    background: rgba(35, 6, 42, 0.9); /*Set color and opacity*/
+}

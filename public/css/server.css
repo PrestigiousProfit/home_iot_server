@@ -1,0 +1,90 @@
+body{
+    background: #EAEAEA;
+    margin: 0;
+    padding: 0;
+}
+
+.window_text{
+    color: #632100;
+    font-size: 16px;
+    margin: auto;
+}
+
+.term_p{
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    font-family: 'Cousine', monospace;
+    font-size: 16px;
+    display: inline-block;
+
+}
+
+#termbox{
+    width: 70%;
+    height: 90%;
+    margin:auto;
+    color:#FFFFFF;
+    background: none;
+    border-style: none;
+    border-width: 2px;
+    border-color: rgba(45, 45, 88, 0.5);
+}
+
+#top_bar{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 6px;
+    padding-top: 3px;
+    height: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+
+#cmd_area{
+    width: 100%;
+    height: 95.5%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgba(35, 6, 42, 0.9); /*Set color and opacity*/
+    color:#FFFFFF;
+}
+
+
+#s_prompt{
+    margin-left: 6px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-family: 'Cousine', monospace;
+    font-size: 16px;
+    background: none;
+    width: 75px;
+    display: inline-block;
+}
+
+
+#cmd_line{
+    font-size: 16px;
+    font-family: 'Cousine', monospace;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 8px;
+    margin: auto;
+    display:inline-block;
+}
+
+
+.container{
+    height: 30%;
+    width: 100%;
+}
+
+.terminal-half{
+    height: 70%;
+    width: 100%;
+}
